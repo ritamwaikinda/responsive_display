@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(227, 245, 218);
+}
+
+div {
+    height: 100px;
+    background-image: url("https://cdn.webshopapp.com/shops/94414/files/52433390/flag-of-tanzania.jpg");
+    background-size: contain;
+}
+/* ***EXTRA SMALL SCREEN*** */
+/* This will set small screens like phones to a mintcream color. */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: mintcream;
+    }
+    div {
+        background-image: url("https://images.csmonitor.com/csm/2013/10/1004-brazil-city-of-god-original-film.jpg?alias=standard_900x600");
+    }
+}
+/* ***SMALL SCREEN*** */
+/* This will set small devices like portrait-size tablets and large 
+phones to a pale green, which should be darker than extra small devices 
+like phones. 
+Keeping this in comment so we can see the tablet-color intention. */
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(224, 235, 215);
+    }
+    div {
+        background-image: url("https://i.ytimg.com/vi/Tx9L8idnX4Q/maxresdefault.jpg");
+    }
+}
+/* ***MEDIUM SCREEN*** */
+/* This will set medium sized devices like landscape tablets to a green 
+darker than small devices like portrait-oriented tablets and large phones */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgb(171, 243, 207);
+    }
+    div {
+        background-image: url("https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-City-of-God-Phellipe-Haagensen.jpg");
+    }
+}
+/* ***LARGE SCREEN*** */
+/* This will set large devices like laptops and desktops to a darker
+green than medium devices like landscape-oriented tablets. */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: rgb(133, 212, 173);
+    }
+    div {
+        background-image: url("https://i.ytimg.com/vi/cfkvNYmWxck/movieposter.jpg");
+    }
+}
+/* ***EXTRA LARGE SCREEN*** */
+/* This will set extra large devices like large laptops and desktops
+to the darkest green of the green background color spectrum. */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(95, 194, 144);
+    }
+    div {
+        background-image: url("https://2.bp.blogspot.com/-ii5XkKYsp3Y/Upo0MWQF_7I/AAAAAAAABhE/Bz6jqkJejqE/s1600/images.jpg");
+    }
+}
